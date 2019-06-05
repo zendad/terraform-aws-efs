@@ -9,7 +9,8 @@ The following resources are defined in main.tf:
     
 ### run the terraform
 
-``` terraform init -input=false 
+``` 
+    terraform init -input=false 
     terraform plan -out=tfplanefs 
     terraform apply -input=false tfplanefs 
 ```
