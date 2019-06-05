@@ -11,4 +11,5 @@ The following resources are defined in main.tf:
 
 ``` terraform init -input=false 
     terraform plan -out=tfplanefs 
-    terraform apply -input=false tfplanefs ```
+    terraform apply -input=false tfplanefs 
+```
